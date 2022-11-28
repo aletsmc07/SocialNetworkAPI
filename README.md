@@ -63,6 +63,52 @@ Please, install Node JS, MongoDB and Insomnia (links specified in Tech section) 
 
 ## Screenshots
 
+Open Insomnia and you can start trying the routes:
+
+For Users:
+
+* Get all users: `GET` http://localhost:3001/api/users
+![image](https://user-images.githubusercontent.com/107447818/204188022-16f79122-8599-4160-8ae3-fb1fe6bbd7cb.png)
+
+* Get user by ID: `GET` http://localhost:3001/api/users/:userID
+![image](https://user-images.githubusercontent.com/107447818/204188267-d907b119-4ceb-42dc-9081-910abde8e2bc.png)
+
+* Create a new user: `POST` http://localhost:3001/api/users
+![image](https://user-images.githubusercontent.com/107447818/204188477-be9b8ed8-5cf6-42e5-a9f4-4c6bf10be2a5.png)
+![image](https://user-images.githubusercontent.com/107447818/204188604-8b1dde14-7a71-4d92-8dbd-bdc4744c4d2e.png)
+
+```
+//Example Data to ADD users
+{
+    "username": "Louis",
+    "email": "louis@mail.com"
+}
+```
+
+* Update a user: `PUT` http://localhost:3001/api/users/:userID
+```
+//Example Data to UPDATE users
+{
+    "email": "louisnew@mail.com"
+}
+```
+![image](https://user-images.githubusercontent.com/107447818/204189466-453eb74e-b279-4640-9376-c68da7a1f3a5.png)
+
+* Delete a user: `DELETE` http://localhost:3001/api/thoughts/:thoughtID
+![image](https://user-images.githubusercontent.com/107447818/204189583-0a4a7deb-7106-46a6-9b34-3fc5e7b4e7e9.png)
+![image](https://user-images.githubusercontent.com/107447818/204189611-ad5c844f-4598-4dfc-92cd-a28d82936b6d.png)
+
+
+For friends:
+
+* Add a friend to user's friend list: `POST` http://localhost:3001/api/users/:userID/friends/:friendID
+![image](https://user-images.githubusercontent.com/107447818/204190153-849a2745-13d5-4c93-8f71-8bea1e8663a1.png)
+![image](https://user-images.githubusercontent.com/107447818/204190222-dd6294e0-9c88-4908-9a3d-657911324e41.png)
+
+* Delete a friend from a user's friend list: `DELETE` http://localhost:3001/api/users/:userID/friends/:friendID
+![image](https://user-images.githubusercontent.com/107447818/204191043-7bb0484e-a066-4081-8ff8-cb88e00f997c.png)
+![image](https://user-images.githubusercontent.com/107447818/204191094-12ebd333-647a-4b4c-9477-92c9d6a0af11.png)
+
 
 [Content](#Content)
 
