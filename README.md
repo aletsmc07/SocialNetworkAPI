@@ -109,6 +109,34 @@ For friends:
 ![image](https://user-images.githubusercontent.com/107447818/204191043-7bb0484e-a066-4081-8ff8-cb88e00f997c.png)
 ![image](https://user-images.githubusercontent.com/107447818/204191094-12ebd333-647a-4b4c-9477-92c9d6a0af11.png)
 
+For thoughts:
+
+* Create a new thought: `POST` http://localhost:3001/api/thoughts
+```
+//Example Data to POST a thought
+{
+    "thoughtText": "I like football",
+    "username": "Alejandro",
+    "userId": "638417f3d9b5b23b62cb6550"
+}
+```
+* Get all thoughts: `GET` http://localhost:3001/api/thoughts
+* Get thought By ID: `GET` http://localhost:3001/api/thoughts/:thoughtID
+* Update a thought: `PUT` http://localhost:3001/api/thoughts/:thoughtID
+* Delete a thought: `DELETE` http://localhost:3001/api/thoughts/:thoughtID
+
+For Reactions:
+
+* Add a reaction to thought's list: `POST` http://localhost:3001/api/thoughts/:thoughtID
+```
+//Example Data 
+{
+    "reactionBody": "Me too my friend!",
+	"username": "Mich"
+}
+```
+
+* Delete a reaction: `DELETE` http://localhost:3001/api/thoughts/:thoughtID/reactions/:reactionID
 
 [Content](#Content)
 
