@@ -33,6 +33,7 @@ This app was made with:
 * [![MongoDB][MongoDB]][MongoDB-url]
 * [![NodeJS][Node.js]][Node.js-url]
 * [![Express][Express]][Express-url]
+* [![Insomnia][Insomia]][Insomnia-url]
 
 [Content](#Content)
 
@@ -107,6 +108,8 @@ Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
 [Node.js-url]: https://nodejs.org/en/
 [Express]: https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=Express&logoColor=white
 [Express-url]: https://expressjs.com/
+[Insomnia]: https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=Insomnia&logoColor=white
+[Insomnia-url]: https://insomnia.rest/
 
 [aletsmc07]: https://img.shields.io/badge/aletsmc07-181717?style=for-the-badge&logo=Github&logoColor=white
 [Github6-url]: https://github.com/aletsmc07
