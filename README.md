@@ -33,7 +33,7 @@ This app was made with:
 * [![MongoDB][MongoDB]][MongoDB-url]
 * [![NodeJS][Node.js]][Node.js-url]
 * [![Express][Express]][Express-url]
-* [![Insomnia][Insomia]][Insomnia-url]
+* [![Insomnia][Insomnia]][Insomnia-url]
 
 [Content](#Content)
 
@@ -76,7 +76,7 @@ Please, install Node JS (link of the specified in Tech section) before run the c
 
 ## Links
 
-- [Github repository](https://github.com/aletsmc07/Employee-Tracker)
+- [Github repository](https://github.com/aletsmc07/SocialNetworkAPI)
 - No deployed app link, run it in terminal.
 
 [Content](#Content)
