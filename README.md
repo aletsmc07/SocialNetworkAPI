@@ -40,37 +40,17 @@ This app was made with:
 ## Installation
 
 Clone the repository on your PC, open it on Visual Studio Code or other source code editor of your choice and follow the next steps:
-- Open the terminal and install all dependencies (Inquierer) :
+- Open the terminal and install all dependencies:
 ```
-    npm install inquirer
-```
-
-- Create an .env file and change the sata with your own info if applicable:
-```
-    DB_HOST= localhost
-    DB_PORT= 3306
-    DB_USER= yourUser
-    DB_PASS= yourPassword
+    npm install
 ```
 
-- To create and run database start MySQL:
+- Start the server:
 ```
-    #work on MySQL
-        mysql -u root -p
-        
-    # to create the DB schema
-        db/SOURCE schema.sql
-    
-    # to add some data (optional; this example contains data to show that the app works)
-        db/SOURCE seeds.sql
+    node server.js
 ```
 
-- To start the app (maybe you will need to open other commandline without close or stop MySQL and type the next command:
-```
-    node index.js
-```
-
-Please, install Node JS (link of the specified in Tech section) before run the commands.
+Please, install Node JS, MongoDB and Insomnia (links specified in Tech section) before run the commands.
 
 [Content](#Content)
 
@@ -97,6 +77,8 @@ Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
 ## Contact
 
 - Alejandro Mince [![Github][aletsmc07]][Github6-url] [![Gmail][gmail6]][gmail6-url]
+
+[Content](#Content)
 
 
 <!-- SHIELDS -->
